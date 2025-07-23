@@ -1,0 +1,19 @@
+/* responsive for iPhone 14 & 15 Pro - 1.....small device */
+
+@media screen and (max-width: 576px) {
+           /* nav related styles */
+    nav{
+        max-width: 365px;
+        margin: 0 auto;
+        padding-top: 20px;
+        padding-left: 30px; 
+    }
+    .logo{
+        width: 63px;
+        height: 38px;
+    }
+    .nav-links{
+        display: none;
+    }
+    
+} 

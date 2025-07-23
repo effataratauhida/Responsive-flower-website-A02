@@ -32,6 +32,9 @@
     max-width: 1140px;
     margin: 0 auto;
 }
+.nav-links{
+    margin-left: 500px;
+}
 .nav-item{
    list-style: none;
    margin-right: 48px;
