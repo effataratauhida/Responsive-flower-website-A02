@@ -1,12 +1,15 @@
 /* responsive for iPhone 14 & 15 Pro - 1.....small device */
 
 @media screen and (max-width: 576px) {
-           /* nav related styles */
+    /* nav related styles */
     nav{
         max-width: 365px;
         margin: 0 auto;
         padding-top: 20px;
         padding-left: 30px; 
+    }
+    .navbar{
+        margin-bottom: 50px;
     }
     .logo{
         width: 63px;
@@ -15,5 +18,21 @@
     .nav-links{
         display: none;
     }
-    
+    /* banner related styles */
+    .banner{
+        margin-top: 50px;
+        flex-direction: column-reverse;
+    }
+    .banner-content{
+        margin-top: 30px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+     .banner-title{
+        font-size: 2rem;
+        margin-top: 0px;
+     }
+     .banner-description{
+        font-size: 0.875rem;
+     }
 } 

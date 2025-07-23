@@ -22,15 +22,17 @@
 
 :root{
     --primary-color: #000000;
+    --secondary-color: #E95A08;
 }
 
 /* header related styles */
 
-.navbar{
+.navbar , .banner{
     justify-content: space-between;
     align-items: center;
     max-width: 1140px;
     margin: 0 auto;
+    margin-bottom: 120px;
 }
 .nav-links{
     margin-left: 500px;
@@ -48,12 +50,41 @@
     font-weight: bold;
     color: #252432;
 }
-.fa-cart-shopping{
-    font-size: 24px;
+.ri-shopping-cart-line{
+    font-size: 1.5rem;
     vertical-align: middle;
 }
  
 .nav-cart{
     color: var(--primary-color);
     vertical-align: middle;
+}
+
+/* banner related styles */
+/* .banner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+} */
+ /* .banner-content{
+   padding-top: 160px;
+ } */
+ .banner-title{
+    font-size: 4.06rem;
+    font-weight: bold;
+    font-family: "Noto Serif", serif;
+    color: var(--primary-color);
+    margin-bottom: 13px;
+ }
+.banner-title span{
+    color: var(--secondary-color);
+}
+.banner-description{
+    font-weight: 400;
+    font-size: 1.375rem;
+    font-family: "Inter", sans-serif;
+    color: rgba(0, 0, 0, 0.5);  /*50% opacity */
+    
+}
+.banner-image{
+    width: 100%;
 }
