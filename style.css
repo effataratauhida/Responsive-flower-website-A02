@@ -15,6 +15,7 @@
 }
 body{
     background-color: #fee5e5;
+    margin: 0 auto;
 }
 /* shared styles */
 
@@ -104,7 +105,8 @@ body{
 
 /* our plants related styles */
 .our-plants-content,
-.latest-deal-content{
+.latest-deal-content,
+.join-content{
     text-align: center;
 }
 .section-title span{
@@ -139,9 +141,10 @@ body{
     margin-top: 0px;
     margin-bottom: 20px;
 }
-.btn-plants{
+.btn-plants ,
+.btn-subscribe{
     background-color: var(--secondary-color);
-     font-family: "Inter", sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 600;
     font-size: 1rem;
     color: #FFFFFF;
@@ -258,4 +261,43 @@ body{
 
     display: inline-block; 
     position: relative;
+}
+
+/* join section styles */
+
+.join{
+    max-width: 100%;
+    height: 530px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.join-content h3{
+    color: white;
+    padding-top: 195px;
+    margin-bottom: 25px;
+}
+
+.join-content input{
+    width: 640px;
+    height: 50px;
+    padding: 0;
+    border: none;
+    vertical-align: middle;
+}
+input::placeholder {
+  padding-left: 20px;
+  color: var(--paragraph-color);
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+}
+
+.btn-subscribe{
+    width: 185px;
+    vertical-align: middle;
+    margin-left: -4px;
 }
