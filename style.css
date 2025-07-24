@@ -43,7 +43,8 @@
 
 .navbar , 
 .banner, 
-.our-plants{
+.our-plants,
+.plants-lover{
     justify-content: space-between;
     align-items: center;
     max-width: 1140px;
@@ -77,13 +78,7 @@
 }
 
 /* banner related styles */
-/* .banner{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-} */
- /* .banner-content{
-   padding-top: 160px;
- } */
+
  .banner-title{
     font-size: 4.06rem;
     font-weight: bold;
@@ -151,4 +146,25 @@
     border: none;
     padding: 0;
     
+}
+
+/* plants lover section related styles */
+.plants-lover{
+    gap: 60px;
+}
+.img-badge{
+    position: relative;
+}
+/* .plants-lover-img{
+    width: 100%;
+} */
+.plants-lover-badge{
+    width: 286px;
+    height: 286px;
+    position: absolute;
+    top: -120px;
+    left: 350px;
+}
+.plants-lover-description{
+    margin-bottom: 20px;
 }
