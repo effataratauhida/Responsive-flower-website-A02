@@ -44,4 +44,24 @@
         margin-left: 25px;
         margin-right: 25px;
     }
+    .our-plants-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .plants-img{
+        width: 100%;
+        height: 55%;
+    }
+    .plants-name{
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .plants-price{
+        margin-bottom: 20px;
+    }
+    .btn-plants{
+        width: 100%;
+        height: 40px;
+        margin-top: 0px;
+    }
 } 
