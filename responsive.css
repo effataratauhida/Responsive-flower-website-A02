@@ -8,7 +8,7 @@
         padding-top: 20px;
         padding-left: 30px; 
     }
-    .navbar{
+     .navbar{
         margin-bottom: 50px;
     }
     .logo{
@@ -56,6 +56,8 @@
     }
     .our-plants-container{
         grid-template-columns: repeat(2, 1fr);
+        margin-left: 16px;
+        margin-right: 16px;
     }
 
     .plants-img{
@@ -80,25 +82,35 @@
         flex-direction: column;
     }
     .plants-lover-img{
-        width: 100%;
+        width: 91%;
+        margin-left: 16px;
+        margin-right: 16px;
     }
     .plants-lover-badge{
         display: none;
     }
+    .plover-title{
+        margin-left: 16px;
+    }
     .plants-lover ul{
         padding: 0px;
-        margin-left: 10px;
-    }
+        margin-left: 16px;
+    } 
 
     /* latest deal section */
 
-    .latest-deal-content{
+    .latest-deals{
+        margin-bottom: 0;
+    }
+     .latest-deal-content{
         margin-bottom: 80px;
     }
     .latest-card-container{
         grid-template-columns: repeat(1, 1fr);
         align-items: center;
-        /* margin-left: 16px; */
+        height: 600px;
+        margin-left: 16px; 
+        margin-right: 16px;
     }
     .left-card1, .left-card2, .right-card{
         height: 180px;
@@ -115,6 +127,20 @@
     }
     .right-paragraph{
         font-size: 1rem;
+    } 
+
+    /* join section */
+    .join{
+        height: 275px;
+        margin-top: 50px;
     }
-   
+    .join-content h3{
+        padding-top: 90px;
+    }
+    .join-content input{
+        width: 218px;
+    }
+    .btn-subscribe{
+        width: 100px;
+    }
 } 
