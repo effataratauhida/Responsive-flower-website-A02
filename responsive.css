@@ -21,18 +21,27 @@
     /* banner related styles */
     .banner{
         margin-top: 50px;
+        margin-bottom: 50px;
         flex-direction: column-reverse;
     }
     .banner-content{
         margin-top: 30px;
         margin-left: 16px;
-        margin-right: 16px;
+        margin-right: 16px; 
     }
-     .banner-title{
+     .banner-title ,
+     .section-title{
         font-size: 2rem;
         margin-top: 0px;
      }
-     .banner-description{
-        font-size: 0.875rem;
-     }
+     .banner-description ,
+     .section-description{
+        font-size: 1rem;
+    }
+
+    /* our plants related styles */
+    .section-description{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
 } 
