@@ -48,7 +48,8 @@ body{
 .banner, 
 .our-plants,
 .plants-lover,
-.latest-deals{
+.latest-deals,
+.footer-container{
     justify-content: space-between;
     align-items: center;
     max-width: 1140px;
@@ -269,7 +270,7 @@ body{
     max-width: 100%;
     height: 530px;
     margin: 0 auto;
-    margin-bottom: 120px;
+    margin-bottom: 60px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(./assets/news-letter-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -301,3 +302,39 @@ input::placeholder {
     vertical-align: middle;
     margin-left: -4px;
 } 
+/* footer section */
+
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-bottom: 50px;
+    
+}
+.footer-logo{
+    margin-top: -40px;
+}
+.footer-menu ul{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.footer-menu{
+    justify-content: space-between;
+}
+.footer-li{
+    list-style: none;
+    font-family: "Inter", sans-serif;
+    
+    font-size: 1rem;
+    margin-bottom: 32px;
+}
+.footer-a{
+    text-decoration: none;
+    color: #8987A1;
+}
+.social-icon{
+    gap: 24px;
+    margin-left: 110px;
+    margin-top: -200px;
+}
+
+
